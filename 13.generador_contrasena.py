@@ -9,6 +9,7 @@ def generar_contrasena():
 
     caracteres = mayusculas + minusculas + simbolos + numeros
 
+    #contraseña = [random.choice(caracteres) for i in range(15)]
     contrasena = []
 
     for i in range(15):
